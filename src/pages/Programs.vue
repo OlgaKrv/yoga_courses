@@ -3,7 +3,7 @@
 		<section>
 			<div class="container">
 				<div class="navbar_content">
-					<div class="page_title">Занятия для любого уровня</div>
+					<div class="page_title w-56">Занятия для любого уровня</div>
 					<div class="page_note">
 						Неважно, идете вы на первое занятие или уже 10 лет практикуете йогу
 						— у нас вы найдете соответствующую группу.
@@ -109,7 +109,6 @@ export default {
 	font-family: phenomena;
 	font-weight: bold;
 	font-size: 2.5rem;
-	width: 13rem;
 }
 .page_note {
 	font-family: gilroy-medium;

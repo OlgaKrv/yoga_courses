@@ -58,10 +58,42 @@
 	.trainer {
 		@apply flex justify-around mt-10;
 	}
-/* 
-	.trainer_photo {
-		@apply block;
-	} */
+
+	.wrapper_prices {
+		@apply relative flex mt-10;
+	}
+
+	.prices_content_title {
+		@apply relative block justify-start;
+	}
+	
+	.prices_content {
+		@apply flex flex-row text-base;
+	}
+
+	.activity_type_title {
+		@apply mb-2;
+	}
+
+	.activity_type_price {
+		@apply text-2xl text-slate-400;
+	}
+
+	.activity_type_item {
+		@apply block bg-slate-200 max-w-xs rounded-lg mr-3 mb-3 p-6 h-40;
+	}
+
+	.activity_type_subscription {
+		@apply block bg-amber-400 rounded-lg mr-3 mb-3 p-6 text-white h-1/2 items-stretch;
+	}
+
+	.subscription_title {
+		@apply mb-2 text-2xl;
+	}
+
+	.subscription_price {
+		@apply text-2xl;
+	}
 
 	.navbar_content {
 		@apply flex items-center justify-between text-teal-900;
