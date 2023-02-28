@@ -21,7 +21,7 @@
 							<td
 								v-for="mondayClass in mondayClasses"
 								:key="mondayClass.num"
-								class="border border-slate-400"
+								class="border border-slate-400 text-center"
 								:class="mondayClass.color"
 							>
 								<div>{{ mondayClass.time }}</div>
@@ -33,7 +33,7 @@
 							<td
 								v-for="tuesdayClass in tuesdayClasses"
 								:key="tuesdayClass.num"
-								class="border border-slate-400"
+								class="border border-slate-400 text-center"
 								:class="tuesdayClass.color"
 							>
 								<div>{{ tuesdayClass.time }}</div>
@@ -45,7 +45,7 @@
 							<td
 								v-for="wednesdayClass in wednesdayClasses"
 								:key="wednesdayClass.num"
-								class="border border-slate-400"
+								class="border border-slate-400 text-center"
 								:class="wednesdayClass.color"
 							>
 								<div>{{ wednesdayClass.time }}</div>
@@ -57,7 +57,7 @@
 							<td
 								v-for="thursdayClass in thursdayClasses"
 								:key="thursdayClass.num"
-								class="border border-slate-400"
+								class="border border-slate-400 text-center"
 								:class="thursdayClass.color"
 							>
 								<div>{{ thursdayClass.time }}</div>
@@ -69,7 +69,7 @@
 							<td
 								v-for="fridayClass in fridayClasses"
 								:key="fridayClass.num"
-								class="border border-slate-400"
+								class="border border-slate-400 text-center"
 								:class="fridayClass.color"
 							>
 								<div>{{ fridayClass.time }}</div>
@@ -81,7 +81,7 @@
 							<td
 								v-for="satudayClass in satudayClasses"
 								:key="satudayClass.num"
-								class="border border-slate-400"
+								class="border border-slate-400 text-center"
 								:class="satudayClass.color"
 							>
 								<div>{{ satudayClass.time }}</div>
@@ -93,7 +93,7 @@
 							<td
 								v-for="sundayClass in sundayClasses"
 								:key="sundayClass.num"
-								class="border border-slate-400 w-32"
+								class="border border-slate-400 text-center w-32"
 								:class="sundayClass.color"
 							>
 								<div>{{ sundayClass.time }}</div>
@@ -209,13 +209,13 @@ export default {
 					level: '',
 					color: 'bg-rose-400',
 				},
-				{ num: 5, time: '', type: '', level: '' },
-				{ num: 6, time: '', type: '', level: '' },
-				{ num: 7, time: '', type: '', level: '' },
-				{ num: 8, time: '', type: '', level: '' },
-				{ num: 9, time: '', type: '', level: '' },
-				{ num: 10, time: '', type: '', level: '' },
-				{ num: 11, time: '', type: '', level: '' },
+				{ num: 5, time: '-', type: '', level: '' },
+				{ num: 6, time: '-', type: '', level: '' },
+				{ num: 7, time: '-', type: '', level: '' },
+				{ num: 8, time: '-', type: '', level: '' },
+				{ num: 9, time: '-', type: '', level: '' },
+				{ num: 10, time: '-', type: '', level: '' },
+				{ num: 11, time: '-', type: '', level: '' },
 				{
 					num: 12,
 					time: '19:00-20:00',

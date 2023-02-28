@@ -106,9 +106,7 @@ export default {
 
 <style>
 .page_title {
-	font-family: phenomena;
-	font-weight: bold;
-	font-size: 2.5rem;
+	font-family: phenomenablack;
 }
 .page_note {
 	font-family: gilroy-medium;

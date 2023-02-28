@@ -31,6 +31,10 @@
 		@apply pb-6;
 	}
 
+	.page_title {
+		@apply text-3xl mb-6;
+	}
+
 	.container {
 		@apply w-full flex-none relative my-0 mx-auto;
 	}
@@ -87,6 +91,22 @@
 		@apply block bg-amber-400 rounded-lg mr-3 mb-3 p-6 text-white h-1/2 items-stretch;
 	}
 
+	.training_types {
+		@apply flex flex-wrap text-center text-xl justify-between h-full;
+	}
+
+	.first_training {
+		@apply mr-6 mb-6 bg-amber-400 flex-auto max-h-72 rounded-2xl;
+	}
+	
+	.training {
+		@apply mr-6 mb-6 bg-no-repeat bg-cover flex-initial w-72 max-h-72 rounded-2xl;
+	}
+
+	.training_details-item {
+		@apply flex justify-between bg-teal-400 rounded-3xl items-end;
+	}
+	/* bg-cover flex-initial w-72 max-h-auto */
 	.subscription_title {
 		@apply mb-2 text-2xl;
 	}
@@ -95,8 +115,24 @@
 		@apply text-2xl;
 	}
 
+	.impression_content {
+		@apply mr-6 p-8 text-base bg-slate-200 rounded-lg max-w-sm grid grid-rows-4 grid-flow-col;
+	}
+
+	.material-icons {
+		@apply row-span-4 mr-2;
+	}
+
+	.impression_text {
+		@apply row-span-3 col-span-2;
+	}
+
+	.impression_author {
+		@apply text-xl col-span-2 flex items-end;
+	}
+
 	.navbar_content {
-		@apply flex items-center justify-between text-teal-900;
+		@apply flex items-center justify-between;
 	}
 	
 	.navbar_list {
@@ -108,7 +144,7 @@
 	}
 	
 	.navbar_link {
-		@apply block text-teal-900;
+		@apply block;
 	}
 	
 	.navbar_link.router-link-exact-active {
