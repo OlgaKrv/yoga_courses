@@ -23,12 +23,65 @@
 		@apply flex flex-col min-h-screen my-0 mx-auto;
 	}
 
+	
+	header {
+		@apply pb-6;
+	}
+
 	.navbar {
 		@apply fixed top-0 inset-x-0 z-20 px-5 py-3 bg-white shadow-md shadow-black;
 	}
 
-	header {
-		@apply pb-6;
+	.navbar_content {
+		@apply flex items-center justify-between;
+	}
+	
+	.navbar_list {
+		@apply flex items-center justify-center;
+	}
+	
+	.navbar_item {
+		@apply mr-8 cursor-pointer;
+	}
+	
+	.navbar_link {
+		@apply block ml-4;
+	}
+	
+	.navbar_link.router-link-exact-active {
+		@apply text-purple-700;
+	}
+
+	footer {
+		@apply bottom-0 mt-10 bg-white border-t-2 border-t-gray-400;
+	}
+
+	.footer_content {
+		@apply py-16 block;
+	}
+
+	.footer_link {
+		@apply flex justify-between;
+	}
+
+	.navbar_block {
+		@apply block text-teal-500;
+	}
+
+	.location_address {
+		@apply grid grid-rows-3 grid-flow-col;
+	}
+
+	.email_link {
+		@apply text-xl text-teal-500 cursor-pointer row-span-1 col-span-2 items-end;
+	}
+
+	.footer_company_policy {
+		@apply flex justify-between mt-10;
+	}
+
+	.social_media_links {
+		@apply flex items-center;
 	}
 
 	.page_title {
@@ -129,26 +182,6 @@
 
 	.impression_author {
 		@apply text-xl col-span-2 flex items-end;
-	}
-
-	.navbar_content {
-		@apply flex items-center justify-between;
-	}
-	
-	.navbar_list {
-		@apply flex items-center justify-center;
-	}
-	
-	.navbar_item {
-		@apply mr-8 cursor-pointer;
-	}
-	
-	.navbar_link {
-		@apply block;
-	}
-	
-	.navbar_link.router-link-exact-active {
-		@apply text-purple-700;
 	}
 
 	.title {

@@ -1,7 +1,7 @@
 <template>
 	<div class="wrapper_content wrapper-content--fixed">
 		<section>
-			<div class="container">
+			<div class="container mt-10">
 				<div class="page_title">Расписание занятий</div>
 				<table class="border text-2xl bg-slate-200">
 					<thead>

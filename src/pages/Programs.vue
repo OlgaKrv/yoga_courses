@@ -1,7 +1,7 @@
 <template>
 	<div class="wrapper_content wrapper-content--fixed">
 		<section>
-			<div class="container">
+			<div class="container mt-10">
 				<div class="navbar_content">
 					<div class="page_title w-56">Занятия для любого уровня</div>
 					<div class="page_note">

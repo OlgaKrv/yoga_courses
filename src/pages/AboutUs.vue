@@ -2,7 +2,7 @@
 	<div class="wrapper_content wrapper-content--fixed">
 		<section>
 			<div class="container">
-				<div class="wrapper_training_types">
+				<div class="wrapper_training_types mt-10">
 					<div class="page_title">Мы практикуем разные виды йоги</div>
 					<div class="training_types">
 						<div class="first_training">
@@ -19,7 +19,7 @@
 						<div class="training">Фитнес йога</div>
 					</div>
 				</div>
-				<div class="wrapper_training_details">
+				<div class="wrapper_training_details mt-10">
 					<div class="page_title">Все продумано до мелочей</div>
 					<div class="training_details">
 						<!-- /* eslint-disable */ -->
@@ -51,7 +51,7 @@
 						</carousel>
 					</div>
 				</div>
-				<div class="wrapper_impressions">
+				<div class="wrapper_impressions mt-10">
 					<div class="page_title">Ученики делятся впечатлениями</div>
 					<div class="impressions">
 						<div class="impression_item flex">
