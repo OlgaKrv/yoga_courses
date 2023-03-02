@@ -8,10 +8,6 @@
 	}
 
 	.wrapper_content {
-		@apply flex flex-col my-0 mx-auto;
-	}
-
-	.wrapper_content {
 		@apply flex flex-col min-h-screen;
 	}
 
@@ -22,7 +18,6 @@
 	.project_wrapper {
 		@apply flex flex-col min-h-screen my-0 mx-auto;
 	}
-
 	
 	header {
 		@apply pb-6;
@@ -117,31 +112,27 @@
 	}
 
 	.wrapper_prices {
-		@apply relative flex mt-10;
+		@apply flex mt-10;
 	}
 
-	.prices_content_title {
-		@apply relative block justify-start;
+	.prices {
+		@apply z-10 block justify-start;
+	}
+
+	.prices_content {
+		@apply flex flex-col flex-wrap sm:h-4/5 lg:h-2/3 md:w-4/5 w-full lg:w-3/4 mt-24 gap-6 text-lg;
+	}
+
+	.activity_type_item {
+		@apply block bg-slate-200 rounded-lg first:mt-16 last:mb-20 h-auto sm:h-32 lg:h-52 sm:p-6 p-2 hover:text-white;
 	}
 	
-	.prices_content {
-		@apply flex flex-row text-base;
-	}
-
-	.activity_type_title {
-		@apply mb-2;
-	}
-
 	.activity_type_price {
 		@apply text-2xl text-slate-400;
 	}
 
-	.activity_type_item {
-		@apply block bg-slate-200 max-w-xs rounded-lg mr-3 mb-3 p-6 h-40;
-	}
-
-	.activity_type_subscription {
-		@apply block bg-amber-400 rounded-lg mr-3 mb-3 p-6 text-white h-1/2 items-stretch;
+	.record_button {
+		@apply px-10 py-2 rounded-full text-black bg-white;
 	}
 
 	.training_types {
@@ -160,13 +151,6 @@
 		@apply flex justify-between bg-teal-400 rounded-3xl items-end;
 	}
 	/* bg-cover flex-initial w-72 max-h-auto */
-	.subscription_title {
-		@apply mb-2 text-2xl;
-	}
-
-	.subscription_price {
-		@apply text-2xl;
-	}
 
 	.impression_content {
 		@apply mr-6 p-8 text-base bg-slate-200 rounded-lg max-w-sm grid grid-rows-4 grid-flow-col;

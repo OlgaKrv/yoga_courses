@@ -10,7 +10,7 @@
 				<div class="text-base">телефон</div>
 				<div class="text-3xl">+7-966-752-00-87</div>
 				<div class="text-base">
-					или <a class="text-teal-500">оставьте свои данные</a>
+					или <a class="text-teal-500" href="">оставьте свои данные</a>
 					и мы с вами свяжемся
 				</div>
 			</div>

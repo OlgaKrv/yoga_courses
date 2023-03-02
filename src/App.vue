@@ -63,7 +63,9 @@
 								<div class="text-xl">Петергоф, ул. Чичеринская, 2а</div>
 								<p>c 9:00 до 22:00</p>
 							</div>
-							<div class="email_link">bonagarden@mail.ru</div>
+							<div class="email_link">
+								<a href="">bonagarden@mail.ru</a>
+							</div>
 						</div>
 					</div>
 					<div class="footer_company_policy">
